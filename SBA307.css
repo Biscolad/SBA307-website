@@ -35,24 +35,30 @@
     margin: 0 auto;
     position: absolute;
     z-index: 1;
-    width: 800px;
+    width: 100%;
+    height: 180px;
     padding-top: 20px;
+    
     justify-content: center;
 }
 
 .background-image {
-    background-size: cover;
-    justify-content: center;
+    display: block;
+    width: 100%;
+    height: 300px;
     margin: 0;
-    width: 1600px;
-    height: 400px;
+    justify-content: center;
+    text-align: center;
+    /* background-size: cover;
+    justify-content: center;
     margin-top: -24px;
     text-align: center;
+    padding-right: 60px; */
 }
 
 .navbar-collapse {
     margin-left: 40px;
-    margin-top: 180px;
+    margin-top: 200px;
     margin-left: 250px;
     padding-left: 20px;
 }
@@ -60,21 +66,59 @@
 .nav-link {
     display: inline;
     margin-right: 80px;
+    padding-top: 300px;
     
 }
 
 .d-flex {
-    padding-left: 20px;
+    padding-right: 60px;
+}
+
+.btn-secondary {
+    margin-top: 80px;
+}
+
+.flex-column {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.tab-content {
+    margin-top: 100px;
+}
+
+.btn-primary {
+    padding-left: 60px;
+}
+
+.dropdown {
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+
+.background-text {
+    text-align: center;
+    margin-top: -200px;
+    /* display: inline;
+    position: relative;
+    font-size: xx-large;
+    padding-top: 40px;
+    color: solid white;
+    transform: translate(-50, -50); */
 }
 
 
 
-/* .background-text {
-    display: inline;
-    position: relative;
-   
-    font-size: xx-large;
-    padding-top: 50px;
-    color: blue;
-    transform: translate(-50, -50);
-} */
+
+
+footer {
+    text-align: center;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    
+
+}
