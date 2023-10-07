@@ -57,10 +57,12 @@
 }
 
 .navbar-collapse {
-    margin-left: 40px;
+    margin-left: 180px;
     margin-top: 200px;
-    margin-left: 250px;
-    padding-left: 20px;
+}
+
+.navbar-expand-lg {
+    padding-left: 10px;
 }
 
 .nav-link {
@@ -71,7 +73,7 @@
 }
 
 
-.cards {
+.card-tabs {
     display: flex;
     flex-wrap: wrap;
     padding-top: 100px;
@@ -82,21 +84,27 @@
 .card1 {
     padding-right: 20px;
     width: 20%;
+    margin-left: 60px;
+    
 }
 
 .card2 {
     padding-right: 20px;
     width: 20%;
+    margin-left: 60px;
 }
 
 .card3 {
     padding-right: 20px;
     width: 20%;
+    margin-left: 60px;
 }
 
 .card4 {
-    padding-right: 20px;
+    margin-right: 20px;
     width: 20%;
+    padding-right: 20px;
+    margin-left: 60px;
 }
 
 .d-flex {
@@ -139,7 +147,11 @@
 
 
 hr {
-    height: 8px;
+    height: 100px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .new-form {
@@ -151,14 +163,22 @@ hr {
 }
 
 .existing-user {
-    padding-top: -200px;
+    display: inline-block;
+    width: 45%;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    /* padding-top: -200px;
     padding-right: 50px;
-    padding-left: 200px;
+    padding-left: 200px; */
 }
 
 
 .new-user {
-    padding-left: 100px;
+    display: inline-block;
+    width: 45%;
+    margin-right: 20px;
+    /* padding-left: 100px; */
 
 }
 
@@ -176,6 +196,8 @@ hr {
 
 footer {
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 a {
