@@ -70,6 +70,35 @@
     
 }
 
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.card1 {
+    padding-right: 20px;
+    width: 20%;
+}
+
+.card2 {
+    padding-right: 20px;
+    width: 20%;
+}
+
+.card3 {
+    padding-right: 20px;
+    width: 20%;
+}
+
+.card4 {
+    padding-right: 20px;
+    width: 20%;
+}
+
 .d-flex {
     padding-right: 60px;
 }
@@ -107,6 +136,39 @@
     color: solid white;
     transform: translate(-50, -50); */
 }
+
+
+hr {
+    height: 8px;
+}
+
+.new-form {
+    width: 100%;
+    /* flex-wrap: wrap;
+    align-content: center;
+    margin-left: 600px; */
+    
+}
+
+.existing-user {
+    padding-top: -200px;
+    padding-right: 50px;
+    padding-left: 200px;
+}
+
+
+.new-user {
+    padding-left: 100px;
+
+}
+
+.bottom-bar {
+    padding: 40px;
+    font-size: 20px;
+
+}
+
+
 
 
 
